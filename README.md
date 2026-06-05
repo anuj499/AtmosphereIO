@@ -138,7 +138,7 @@ Q6. How do weather conditions compare across cities?
 
 🚀 Getting Started
 1. Clone this repository
-git clone https://github.com/your-username/weatherboard.git
+git clone https://github.com/anuj499/Atmosphere.git
 
 2. Open the .pbix file in Power BI Desktop
   
