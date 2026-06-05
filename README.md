@@ -96,6 +96,44 @@ Horizontal bar chart showing daily rain probability
 Dual-bar layout with percentage labels
 
 📸 Dashboard Preview:
+<p align="center">
+  <img src="./Dashboard-preview.png" alt="WeatherBoard Dashboard" width="900"/>
+</p>
+
+🚨 Key Problems This Dashboard Solves
+
+1. Weather data is scattered across multiple apps
+Consolidates current conditions, 7-day forecast, AQI, rain probability, and sunrise/sunset into a single dark-themed view
+
+2. Static dashboards go stale quickly
+**Connects directly to live REST APIs — no CSV files. Published on Power BI Service with scheduled auto-refresh for always-current data
+
+3. Air quality is ignored in most weather apps
+**Brings AQI front and center with a donut gauge, all 6 pollutants (PM10, O3, SO2, PM2.5, CO, NO2), color-coded status, and a plain-English summary
+
+4. Switching between cities requires separate lookups
+**A single city slicer instantly updates every visual — forecast, AQI, metrics, sunrise/sunset — across the entire dashboard
+
+
+❓ Key Questions & Answers
+Q1. What is the current temperature and condition right now?
+**🌡️ 32.2°C, Mist — recorded in Kolkata as of the last refresh on 05 Jun.
+
+Q2. How will temperature trend over the next 7 days?
+**📈 Temperatures rise steadily from 32.8°C on Friday, peaking at 35°C on Wednesday, then dipping back to 34.1°C by Thursday. Expect a consistently hot week with no major cool-down.
+
+Q3. Is the air safe to breathe? Which pollutant is the concern?
+**🍃 Overall AQI is 28 — rated Good. Air is clean and healthy for all activities. The only elevated reading is CO at 321, which is worth monitoring but within acceptable range for outdoor exposure.
+
+Q4. What are the chances of rain this week — should I carry an umbrella?
+**🌧️ Rain probability is 73% on Friday, Sunday, Tuesday, and Wednesday — carry an umbrella on those days. Saturday, Monday, and Thursday are lower risk at ~43–57%.
+
+Q5. What time does the sun rise and set today?
+**🌅 Sunrise: 04:51 AM · Sunset: 06:18 PM — giving roughly 13.5 hours of daylight.
+
+Q6. How do weather conditions compare across cities?
+**🏙️ Lucknow is the hottest at 35.3°C, followed by Mumbai at 34.4°C, and Kolkata at 32.2°C. All three cities are experiencing above-average summer heat.
+
 
 
 🚀 Getting Started
