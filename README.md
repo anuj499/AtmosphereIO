@@ -151,9 +151,14 @@ git clone https://github.com/anuj499/Atmosphere.git
 5. (Optional) Publish to Power BI Service and configure a scheduled refresh for always-live data
 
 🔑 API Key Setup
-Inside Power Query, the source URL will look like:
-https://api.yourweatherprovider.com/forecast?city=Kolkata&appid=YOUR_API_KEY&units=metric
-Replace YOUR_API_KEY in the URL
+**Sign up at weatherapi.com to get your free API key. Inside Power Query, the source URLs will look like:
+Current Weather + AQI:
+https://api.weatherapi.com/v1/current.json?key=YOUR_API_KEY&q=Kolkata&aqi=yes
+
+7-Day Forecast:
+https://api.weatherapi.com/v1/forecast.json?key=YOUR_API_KEY&q=Kolkata&days=7&aqi=yes&alerts=no
+
+**Replace YOUR_API_KEY with the key from your WeatherAPI.com dashboard, and swap Kolkata with any city name to switch locations.
 
 ## 📜 License
 
