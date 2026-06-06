@@ -6,25 +6,25 @@
 **AtmosphereIO is a comprehensive weather monitoring dashboard built entirely in Power BI, designed to give users an at-a-glance view of current weather conditions, a 7-day forecast, air quality index (AQI), and environmental metrics for multiple Indian cities. It connects to live weather APIs — eliminating the need for static CSV files — so the data stays fresh with every scheduled refresh.
 
 🛠️ Tech Stack
-          Layer                    Technology
-1. BI & Visualization              Microsoft Power BI Desktop
-2. Data Transformation             Power Query (M Language)
-3. Measures & Logic                DAX (Data Analysis Expressions)
-4. Data Format                     JSON (via REST API)
-5. Publishing & Refresh            Power BI Service (scheduled auto-refresh)
-6. Custom Visuals                  Native Power BI cards, donut charts, slicers, bar charts
+          Layer     &               Technology
+1. BI & Visualization  -->             Microsoft Power BI Desktop
+2. Data Transformation  -->           Power Query (M Language)
+3. Measures & Logic  -->              DAX (Data Analysis Expressions)
+4. Data Format  -->                   JSON (via REST API)
+5. Publishing & Refresh  -->          Power BI Service (scheduled auto-refresh)
+6. Custom Visuals   -->               Native Power BI cards, donut charts, slicers, bar charts
 
 🌐 Data Sources
           Data Type                Source
-1. Current Weather (temp,          Weather REST API (JSON)
+1. Current Weather (temp,    -->      Weather REST API (JSON)
  humidity, wind, pressure,
  UV, visibility)
-2. 7-Day Daily Forecast             Weather Forecast API Endpoint
-3. Hourly Forecast                  Weather Forecast API Endpoint
-4. Air Quality Index (PM10,         AQI API
+2. 7-Day Daily Forecast    -->         Weather Forecast API Endpoint
+3. Hourly Forecast     -->             Weather Forecast API Endpoint
+4. Air Quality Index (PM10,   -->      AQI API
  O3, SO2, PM2.5, CO, NO2)
-5. Dynamic Weather Icons            Icon URL field from API response
-6. Multi-city Support               Kolkata · Lucknow · Mumbai
+5. Dynamic Weather Icons   -->         Icon URL field from API response
+6. Multi-city Support     -->          Kolkata · Lucknow · Mumbai
 
 ⚙️ How It's Built — Step-by-Step
 1. 🔌 Data Connection
