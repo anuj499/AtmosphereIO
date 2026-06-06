@@ -5,7 +5,7 @@
 📌 Purpose
 **AtmosphereIO is a comprehensive weather monitoring dashboard built entirely in Power BI, designed to give users an at-a-glance view of current weather conditions, a 7-day forecast, air quality index (AQI), and environmental metrics for multiple Indian cities. It connects to live weather APIs — eliminating the need for static CSV files — so the data stays fresh with every scheduled refresh.
 
-🛠️ Tech Stack
+🛠️ Tech Stack :
           Layer     &               Technology
 1. BI & Visualization  -->             Microsoft Power BI Desktop
 2. Data Transformation  -->           Power Query (M Language)
@@ -14,7 +14,7 @@
 5. Publishing & Refresh  -->          Power BI Service (scheduled auto-refresh)
 6. Custom Visuals   -->               Native Power BI cards, donut charts, slicers, bar charts
 
-🌐 Data Sources
+🌐 Data Sources :
           Data Type                Source
 1. Current Weather (temp,    -->      Weather REST API (JSON)
  humidity, wind, pressure,
