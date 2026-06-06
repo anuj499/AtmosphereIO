@@ -21,8 +21,8 @@
  UV, visibility)
 2. 7-Day Daily Forecast    -->         Weather Forecast API Endpoint
 3. Hourly Forecast     -->             Weather Forecast API Endpoint
-4. Air Quality Index (PM10,      AQI API
- O3, SO2, PM2.5, CO, NO2)   -->
+4. Air Quality Index (PM10,      
+ O3, SO2, PM2.5, CO, NO2)   -->          AQI API
 5. Dynamic Weather Icons   -->         Icon URL field from API response
 6. Multi-city Support     -->          Kolkata · Lucknow · Mumbai
 
