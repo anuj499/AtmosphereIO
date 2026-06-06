@@ -3,7 +3,7 @@
 **A sleek, dark-themed Power BI dashboard delivering live forecasts, air quality insights, and atmospheric metrics — all in one glance.
 
 📌 Purpose
-**WeatherBoard is a comprehensive weather monitoring dashboard built entirely in Power BI, designed to give users an at-a-glance view of current weather conditions, a 7-day forecast, air quality index (AQI), and environmental metrics for multiple Indian cities. It connects to live weather APIs — eliminating the need for static CSV files — so the data stays fresh with every scheduled refresh.
+**AtmosphereIO is a comprehensive weather monitoring dashboard built entirely in Power BI, designed to give users an at-a-glance view of current weather conditions, a 7-day forecast, air quality index (AQI), and environmental metrics for multiple Indian cities. It connects to live weather APIs — eliminating the need for static CSV files — so the data stays fresh with every scheduled refresh.
 
 🛠️ Tech Stack
           Layer                    Technology
