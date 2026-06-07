@@ -12,7 +12,7 @@
 3. Measures & Logic  -->              DAX (Data Analysis Expressions)
 4. Data Format  -->                   JSON (via REST API)
 5. Publishing & Refresh  -->          Power BI Service (scheduled auto-refresh)
-6. Custom Visuals   -->               Native Power BI cards, donut charts, slicers, bar charts
+6. Custom Visuals   -->               Native Power BI cards, donut charts, slicers, bar charts.
 
 🌐 Data Sources :
           Data Type                Source
